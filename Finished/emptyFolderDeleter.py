@@ -27,21 +27,21 @@ window.config(background = "white")
 
 # inserts title for program
 label_file_explorer = Label(window,
-							text = "Empty Folder Deleter",
-							width = 100, height = 4,
-							fg = "green")
+			    text = "Empty Folder Deleter",
+			    width = 100, height = 4,
+			    fg = "green")
 
 # button to browse directories and clear empty folders
 button_explore = Button(window,
-						text = "Browse and Delete Empty Folders",
-						fg = "green",
-						command = browseFiles)
+			text = "Browse and Delete Empty Folders",
+			fg = "green",
+			command = browseFiles)
 
 # button to exit program 
 button_exit = Button(window,
-					text = "Exit",
-					fg = "green",
-					command = window.destroy)
+		     text = "Exit",
+		     fg = "green",
+		     command = window.destroy)
 
 # aligning buttons and text
 label_file_explorer.grid(column = 1, row = 1)
